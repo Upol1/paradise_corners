@@ -1,0 +1,130 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/fonts/Roboto/Roboto-Black.ttf);
+}
+
+.container {
+  width: 100%;
+  margin-bottom: 8vw;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleContainer {
+  /*   background: #ec99b773;
+  border: 1px solid #ffb49f;
+  border-radius: 10px;
+  padding: 10px; */
+  /*   position: absolute;
+  left: 40%;
+  top: 2%; */
+  text-align: center;
+}
+
+.mainPlant--title {
+  font-family: Roboto;
+  display: grid;
+  z-index: 1000;
+  color: white;
+}
+
+.plantMainImage-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.plantMainImage {
+  width: 600px;
+  object-fit: cover;
+}
+
+.actionButtons-container {
+  position: absolute;
+  top: 15%;
+  left: 75%;
+}
+
+.actionButton {
+  opacity: 0.5;
+  outline: none;
+  margin: 4px 6px;
+  padding: 5px 10px;
+  width: min-content;
+  height: min-content;
+  background: #f4feff;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.actionButton:hover {
+  opacity: 1;
+}
+
+.actionButton:active {
+  box-shadow: 1px 2px 8px 1px rgb(255, 110, 190);
+  opacity: 1;
+}
+
+.actionButton img {
+  width: 20px;
+  height: 20px;
+}
+
+.collageContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr 1fr;
+  align-items: center;
+  margin: 0 20vh;
+  width: 90vw;
+  justify-items: center;
+}
+
+@media (max-width: 1280px) {
+  .titleContainer {
+    position: unset;
+    text-align: center;
+  }
+  .container {
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    justify-items: center;
+    justify-content: center;
+  }
+  .plantMainImage {
+    width: 390px;
+    object-fit: cover;
+  }
+
+  .plantMainImage-container {
+    flex-direction: column;
+  }
+
+  .collageContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+  }
+}
+
+@media (max-width: 850px) and (orientation: landscape) {
+  .plantMainImage {
+    width: 560px;
+  }
+}
+@media (max-width: 570px) {
+  .plantMainImage {
+    width: 300px;
+    object-fit: cover;
+  }
+}

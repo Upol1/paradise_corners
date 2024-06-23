@@ -1,0 +1,50 @@
+.BackArrow-container {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  width: 100%;
+  grid-column: 1 / 1;
+}
+
+.BackArrow-container__button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding: 2px 4px;
+  width: 10vw;
+  height: 9vh;
+}
+
+/* .BackArrow-container__button button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+} */
+
+.BackArrow-container__button,
+.BackArrow-container__button img {
+  width: 38px;
+  height: 36px;
+}
+
+.BackArrow-container__button span {
+  margin-left: 3px;
+}
+
+.BackArrow-container__button:hover > span {
+  color: white;
+}
+
+.BackArrow-container__button:hover img {
+  color: white;
+}
+
+@media (max-width: 850px) {
+  .ProductDetails__Container a {
+    position: absolute;
+    left: 0;
+    top: 59px;
+  }
+}

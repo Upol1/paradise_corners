@@ -1,38 +1,69 @@
 {
-  "name": "paradise_corners2",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
+  "name": "charos-garden",
+  "version": "1.0.0",
+  "description": "Project based about a flower shop",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "webpack --config webpack.config.js --mode development",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "node scripts/create-env.js && webpack --mode production",
+    "server": "json-server --watch ./src/utils/plantsBd.json",
+    "dev": "concurrently \"npm run server\" \"npm run start\""
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcabreram1234/charos-garden.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "keywords": [
+    "charos",
+    "garden",
+    "flower",
+    "flowers",
+    "react",
+    "reactjs",
+    "pink"
+  ],
+  "author": "Phillip Cabrera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pcabreram1234/charos-garden/issues"
+  },
+  "homepage": "https://github.com/pcabreram1234/charos-garden#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.3",
+    "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.1.0",
+    "css-loader": "^6.5.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "json-server": "^0.16.3",
+    "mini-css-extract-plugin": "^2.4.4",
+    "react": "^17.0.2",
+    "react-dom": "17.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-middleware": "^5.2.1",
+    "webpack-dev-server": "^4.5.0",
+    "webpack-subresource-integrity": "^5.1.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.9.3",
+    "antd": "^4.16.13",
+    "bootstrap": "^5.1.0",
+    "concurrently": "^6.3.0",
+    "dotenv-webpack": "^7.1.0",
+    "react-popper": "^2.2.5",
+    "react-responsive": "^9.0.0-beta.6",
+    "react-router-dom": "^5.2.0",
+    "reactstrap": "^8.9.0",
+    "request": "^2.79.0"
   }
 }

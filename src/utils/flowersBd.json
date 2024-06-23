@@ -1,0 +1,22 @@
+{
+  "Flowers": [
+    {
+      "id": 1,
+      "name": "Wild Roses",
+      "detail": "Rosa canina, the wild rose, is a deciduous thorny shrub of the rose family, native to Europe, Northwest Africa, and Western Asia. It has also been introduced to North America and other parts of the world. Its distribution is currently quite extensive.",
+      "src": "./assets/images/silvestres.png"
+    },
+    {
+      "id": 2,
+      "name": "Modern Roses",
+      "detail": "In the cultivation of garden roses, a modern rose is defined as a rose belonging to any of the varieties obtained after the introduction of the first modern garden rose, 'La France', in 1867.",
+      "src": "./assets/images/modernas.png"
+    },
+    {
+      "id": 3,
+      "name": "Old Garden Roses",
+      "detail": "In the cultivation of garden roses, an old garden rose is defined as any rose belonging to an existing variety predating the introduction of the first modern garden rose, 'La France', in 1867.",
+      "src": "./assets/images/antiguas.png"
+    }
+  ]
+}

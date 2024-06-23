@@ -1,0 +1,52 @@
+{
+  "Plants": [
+    {
+      "id": 0,
+      "name": "Mother-in-law's Tongue",
+      "src": "/assets/images/plant1.png",
+      "detail": "Sansevieria trifasciata is a semi-succulent plant that grows in basal and vertical rosettes. The leaves are erect, lanceolate, sharp, and rigid, ranging from 40 to 140 cm long and about 4 to 10 cm wide. They come in different colors and patterns depending on the variety, with the most common being dark green with transverse lines of paler green. The margins are entire, green, or sometimes yellow."
+    },
+    {
+      "id": 1,
+      "name": "African Lily",
+      "src": "/assets/images/plant2.png",
+      "detail": "It is a herbaceous, evergreen, rhizomatous plant. It has a short stem that bears several elongated, arciform leaves, 10 to 35 cm long and 1 to 2 cm wide, as well as a floral scape 25 to 60 cm long, crowned with an umbel of 20 to 30 bright violet or white flowers. Each flower is hermaphroditic and actinomorphic, 2.5 to 5 cm in diameter."
+    },
+    {
+      "id": 2,
+      "name": "Golden Trumpet Vine",
+      "src": "/assets/images/plant3.png",
+      "detail": "These are climbing vines or shrubs. Leaves are whorled, oblanceolate to obovate-elliptic, 3–15 cm long and 1.5–5 cm wide, acuminate apex, cuneate base. Racemose inflorescence with yellow flowers; sepals ovate, foliaceous, 5–10 mm long; widely campanulate corolla above a narrow basal tube, up to 12 cm long; anthers adhering to the stigma; syncarpous ovary. Fruit is a slightly flattened capsule, ellipsoid, up to about 7 cm long, spiny; seeds are flat, dry, with a thick concentric wing."
+    },
+    {
+      "id": 3,
+      "name": "Bougainvillea",
+      "src": "/assets/images/plant4.png",
+      "detail": "These are shrubs or small trees, some perennial climbers in year-round rainy areas, or deciduous in dry-season areas, ranging from 1 to 12 m tall."
+    },
+    {
+      "id": 4,
+      "name": "Cyclamen",
+      "src": "/assets/images/plant5.png",
+      "detail": "Herbaceous, perennial plants with more or less smooth, glabrous, or pubescent tubers, rooting all over or only at the base. Leaves have long petioles, subentire or incised-lobate, glabrous or glabrescent, with a mottled green upper surface and a green or purplish lower surface."
+    },
+    {
+      "id": 5,
+      "name": "Bear's Ear",
+      "src": "/assets/images/plant6.png",
+      "detail": "It is a perennial species, with a lax rosette of oblanceolate to obovate, wrinkled, irregularly dentate leaves. Fragrant flowers are pale yellow with a darker center, blooming individually on stemless pedicels with long hairs, emerging from the leaf rosette."
+    },
+    {
+      "id": 6,
+      "name": "Caladium",
+      "src": "/assets/images/plant7.png",
+      "detail": "The genus Caladium includes twelve species native to Brazil, Guyana, and neighboring regions of South America and Central America. They grow in open areas of the jungle during the dry season. Wild plants reach 40 to 90 cm in height with leaves measuring 15 to 45 cm in length and width, respectively."
+    },
+    {
+      "id": 7,
+      "name": "Ornamental Plant",
+      "src": "/assets/images/plant8.png",
+      "detail": "An ornamental plant is cultivated and marketed for decorative purposes due to its aesthetic characteristics, such as flowers, leaves, fragrance, the uniqueness of its foliage, fruits, or stems in gardens and landscaping designs, as an indoor plant or for cut flowers."
+    }
+  ]
+}
